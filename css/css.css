@@ -1,0 +1,99 @@
+.text {
+    margin-left: 40%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+button {
+    background-color: #007bff;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.container {
+    margin-left: 35%;
+    margin-top: 60px;
+    border: 1px ridge #ddd;
+    width: 350px;
+}
+
+.container div {
+    margin-top: 20px;
+    border: 1px ridge #ddd;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+h1 {
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 19px;
+    margin-left: 44%;
+    font-size: 20px;
+}
+
+.container span {
+    display: flex;
+    flex: row;
+    height: 60px;
+    border-style: ridge;
+    border-width: 1px;
+    border-color: transparent transparent #ddd transparent;
+    background-color: #f4f4f4;
+    ;
+}
+
+.container span h4 {
+    font-size: 19px;
+    font-weight: bold;
+    padding-left: 40px;
+    color: #007bff;
+}
+
+.container span p {
+    padding-left: 130px;
+    padding-top: 12px;
+}
+
+.container span:hover {
+    background-color: #f9f9f9;
+    transition: all 0.5s linear;
+}
+
+@media (max-width: 768px) {
+    .text {
+        position: relative;
+        right: 60px;
+    }
+    .container {
+        position: relative;
+        right: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text {
+        position: relative;
+        right: 100px;
+    }
+    .container {
+        position: relative;
+        right: 120px;
+    }
+}
